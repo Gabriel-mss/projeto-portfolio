@@ -30,3 +30,11 @@
     --text-md: 400 16px/140% var(--font-family-text);
     --text-sm: 400 14/140% var(--font-family-text)
 }
+
+body{
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
