@@ -38,3 +38,16 @@ body{
     background-attachment: fixed;
 }
 
+ul { 
+    display: flex;
+    justify-content: center; 
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    flex-wrap: wrap;
+}
+
+h1 {
+    font: var(--h1);
+    color: var(--gray-100);
+}
