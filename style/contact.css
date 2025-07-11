@@ -1,0 +1,28 @@
+#contact{
+    text-align: center;
+    margin: 128px 120px 200px;
+    
+}
+
+.contact-header{
+    height: 91px;
+}
+
+.contact-subtitle{
+    margin-top: 8px;
+    color: var(--gray-100);
+}
+
+.contact-text{
+    margin-top: 8px;
+    color: var(--gray-200);
+}
+
+.contact-text-subtitle{
+    color: var(--purple);
+    font: var(--text-subtitle);
+}
+
+.contact-link{
+    margin-top: 48px;
+}
