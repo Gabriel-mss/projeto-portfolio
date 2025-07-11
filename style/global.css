@@ -58,7 +58,7 @@ h3{
 }
 
 #page{
-    max-width: auto; 
+    max-width: 1366px auto; 
     height:  auto;
     text-align: center;
 }

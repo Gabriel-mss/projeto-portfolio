@@ -1,0 +1,39 @@
+#services {
+    height: 480px;
+    margin-top: 88px;
+    margin-bottom: 120px;
+}
+
+.grid {
+    padding-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.grid-text {
+    margin-top: 20px;
+}
+
+.card-service {
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-100);
+    width: 280px;
+    height: 155px; 
+    padding: 12px 12px 112px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.text-service {
+    margin-top: 8px;
+    color: var(--gray-200);
+}
+
+.title-service {
+    color: var(--gray-100);
+}
