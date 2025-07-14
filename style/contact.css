@@ -1,28 +1,72 @@
-#contact{
+#contact {
     text-align: center;
     margin: 128px 120px 200px;
-    
 }
 
-.contact-header{
+.contact-header {
     height: 91px;
 }
 
-.contact-subtitle{
+.contact-subtitle {
     margin-top: 8px;
     color: var(--gray-100);
 }
 
-.contact-text{
+.contact-text {
     margin-top: 8px;
     color: var(--gray-200);
 }
 
-.contact-text-subtitle{
+.contact-text-subtitle {
     color: var(--purple);
     font: var(--text-subtitle);
 }
 
-.contact-link{
+.contact-link {
     margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contact-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-top: 20px;
+    width: 400px;
+    transition: background-color 0.3s ease;
+}
+
+.card-contact-link:hover .card-contact {
+    background-color: var(--gray-400);
+}
+
+.card-contact-link:hover .card-contact {
+    background-color: var(--purple);
+    color: var(--gray-100); 
+}
+
+
+.card-contact {
+    background-color: var(--gray-400);
+    height: 68px;
+    padding: 12px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: var(--font-family-text);
+    color: var(--gray-200); 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-contact .icon {
+    margin-right: 12px;
+}
+
+.card-contact .icon-seta {
+    margin-left: 20px;
 }
