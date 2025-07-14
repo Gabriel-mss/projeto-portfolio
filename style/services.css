@@ -43,3 +43,7 @@
 .title-service {
     color: var(--gray-100);
 }
+
+.card-image{
+    margin-top: 5px;
+}
