@@ -1,6 +1,10 @@
 #contact {
     text-align: center;
-    margin: 128px 120px 200px;
+    
+    height: 787px;
+    margin-top: 248px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .contact-header {
